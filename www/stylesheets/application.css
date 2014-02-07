@@ -1,0 +1,200 @@
+* {
+  -webkit-user-select: none;  /* Disable selection/copy of elements when tapping for a long time */
+  -webkit-touch-callout: none; /* Disable touch callouts */
+}
+
+input, textarea, [contenteditable] * {
+  -webkit-user-select: auto;  /* Allow selection for input elements and those with contenteditable attribute */
+}
+
+.content-padded {
+  padding: 10px;
+}
+
+/*Fontello Style*/
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?46749858');
+  src: url('../font/fontello.eot?46749858#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?46749858') format('woff'),
+       url('../font/fontello.ttf?46749858') format('truetype'),
+       url('../font/fontello.svg?46749858#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?46749858#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-plus-squared:before { content: '\e800'; } /* '' */
+.icon-right-dir:before { content: '\e801'; } /* '' */
+.icon-facebook-squared:before { content: '\e803'; font-size: 30px; margin-right: 20px; line-height: 1em; margin-top: 2px;} /* '' */
+
+/*End Fontello Styles*/
+
+body {
+	background: url("../images/background.jpg");
+	background-size: 50%;
+}
+
+.title {
+	text-align: center;
+}
+
+h1.logotitle {
+	font-family: "bello-pro";
+	color:#F33C2E;
+	font-size: 5em;
+	margin-top: 10%;
+}
+
+h2.subtitle {
+	font-family: "museo-sans";
+	color: #16CAF2;
+	font-size: 2em;
+	/*padding-top: 5px;*/
+}
+
+.buttoncontainer {
+   position:absolute;
+   bottom:0;
+   width:94%;
+   height:100px;   /* Height of container*/
+}
+
+
+/*Start Styles for Buttons*/
+ .btn {
+    padding: 1em 0em 1em;
+    border-radius: 3px;
+    border:none;
+    margin: 5px 0px 5px 0px;
+    color: #fbdedb;
+    display: inline-block;
+    background: #16CAF2;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "museo-sans";
+    font-weight: 800;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+
+.fullwidth{
+	width:100%;
+}
+
+/*Headers*/
+.chatheader {
+	padding: 1em 0em 1em;
+    border-radius: top 3px;
+    margin: 5px 0px 0px 0px;
+    color: white;
+    display: inline-block;
+    font-family: "museo-sans";
+    font-weight: 800;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+}
+
+.chatcontainer {
+	width:100%;
+	
+}
+
+.chatpreview {
+	padding: 1em 0em 1em;
+    border-radius: top 3px;
+    /*margin: 5px 0px 0px 0px;*/
+    color: black;
+    background-color: #CFFAFF;
+    display: inline-block;
+    font-family: "museo-sans";
+    font-weight: 800;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+        -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+}
+
+.seen {
+	color:#9FA0A1;
+}
+.unseen {
+	color:#1479A7;
+
+}
+
+/* Colours */
+.blue {
+    background-color: #16CAF2;
+}
+
+.red {
+	background-color: #F33C2E;
+}
+
+.username {
+	font-family: "museo-sans";
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: none;
+    color:#9FA0A1;
+    text-align: center;
+
+}

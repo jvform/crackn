@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width">
+  <title>Crackn</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/stylesheets/reset.css" />
+  <link rel="stylesheet" href="/vendor/topcoat/css/topcoat-mobile-light.css" />
+  <link rel="stylesheet" href="/stylesheets/application.css" />
+
+  <!-- Error/Misc JS -->
+  <script src="/javascripts/onerror.js"></script>
+  <script src="/javascripts/console.log.js"></script>
+
+  <!-- Typekit scripts -->
+  <script type="text/javascript" src="//use.typekit.net/cfi2wtk.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- cordova.js is served from localhost to ensure the correct version -->
+  <script src="http://localhost/cordova.js"></script>
+  <script src="/components/steroids-js/steroids.js"></script>
+
+  <!-- jQuery -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  
+  <!-- MAIN JS -->
+  <script src="/javascripts/application.js"></script>
+</head>
+
+<body>
+  <div class="content-padded">
+
+    <button  class = "btn red fullwidth" onClick="steroids.layers.push(hubView);"><span class = "icon-plus-squared">Start a new chat!</span></button>
+
+      <div class = "chatheader blue fullwidth">
+        <span><h1> Your Chats</h1></span>
+
+      </div>
+      
+      <div class = "chatcontainer">
+        <ul class = "chatlist">
+          <li class = "chatpreview fullwidth unseen"><span class = "icon-right-dir">what are you wearing?</span><p class = "username"> Started by <strong>Dylan Carroll<strong></p></li>
+          <li class = "chatpreview fullwidth seen"><span class = "icon-right-dir">new nickname for barry</span><p class = "username"> Started by <strong>Adam Linde<strong></p></li>
+
+        </ul>
+<div class = "buttoncontainer">
+        <button class = "btn fullwidth target" onclick="logout()"><span class = "icon-facebook-squared">Sign In With Facebook</span></button>
+      </div>
+      
+  </div>
+</body>
+</html>

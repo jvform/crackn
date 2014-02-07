@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="plus-squared" unicode="&#xe800;" d="m700 750q42 0 71-29t29-71l0-600q0-40-29-70t-71-30l-600 0q-40 0-70 30t-30 70l0 600q0 42 30 71t70 29l600 0z m-50-450l0 100l-200 0l0 200l-100 0l0-200l-200 0l0-100l200 0l0-200l100 0l0 200l200 0z" horiz-adv-x="800" />
+<glyph glyph-name="right-dir" unicode="&#xe801;" d="m0 580l400-230l-400-230l0 460z" horiz-adv-x="400" />
+<glyph glyph-name="facebook-squared" unicode="&#xe803;" d="m752 770q44 0 76-31t32-75l0-646q0-44-32-76t-76-32l-162 0l0 310l114 0l0 134l-114 0l0 70q0 30 28 30l86 0l0 152l-96 0q-74 0-124-54t-50-132l0-66l-104 0l0-134l104 0l0-310l-326 0q-44 0-76 32t-32 76l0 646q0 44 32 75t76 31l644 0z" horiz-adv-x="860" />
+</font>
+</defs>
+</svg>
